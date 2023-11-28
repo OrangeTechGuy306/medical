@@ -230,4 +230,13 @@ nav{
     .aboutImg{
         width: 300px;
     }
+    .homeflyerContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .textFlyerContainer{
+        text-align: center;
+    }
 } 
