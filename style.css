@@ -215,3 +215,19 @@ nav{
     flex-wrap: wrap;
     gap: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .aboutTextContainer{
+        padding: 10px;
+    }
+    .aboutBoxesContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .aboutImg{
+        width: 300px;
+    }
+} 
